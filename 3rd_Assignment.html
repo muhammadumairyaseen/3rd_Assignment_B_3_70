@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1><u>My 3rd Assignment</u></h1>
+<script>
+//1st Task
+
+// 1. Create a prompt to ask the user's age
+let age = prompt("Please enter your age:");
+
+// 2. Convert the response from the prompt to a number
+let ageAsNumber = parseInt(age);
+console.log("Your age is:", ageAsNumber);
+
+// 3. Declare a message variable that you will use to hold the console message for the user
+let message;
+
+// 4. If the input age is equal to or greater than 21, set the message variable to confirm entry to a venue and the ability to purchase alcohol
+if (age >= 19) {
+  message = "You are allowed to enter the venue and purchase alcohol.";
+}
+
+// 5. If the input age is equal to or greater than 19, set the message variable to confirm entry to the venue but deny the purchase of alcohol
+else if (age >= 20) {
+  message = "You are allowed to enter the venue, but you are not allowed to purchase alcohol.";
+}
+
+// 6. Provide a default else statement to set the message variable to deny entry if none are true
+else {
+  message = "You are not allowed to enter the venue.";
+}
+
+// 7. Output the response message variable to the console
+console.log(message);
+
+//2nd Task
+// 1. Create a age calculator to ask the user for their birthyear
+let birthYear = prompt("Please enter your birthyear:")
+console.log(birthYear);
+
+    </script>
+</body>
+</html>
